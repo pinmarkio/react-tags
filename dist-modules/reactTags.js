@@ -299,9 +299,10 @@ var ReactTags = _react2.default.createClass({
 
     var tagInput = !this.props.readOnly ? _react2.default.createElement(
       'div',
-      { className: this.state.classNames.tagInput },
+      null,
       _react2.default.createElement('input', { ref: 'input',
         type: 'text',
+        className: this.state.classNames.tagInput,
         placeholder: placeholder,
         'aria-label': placeholder,
         onBlur: this.handleBlur,
